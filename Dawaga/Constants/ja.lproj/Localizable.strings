@@ -1,0 +1,47 @@
+/* 
+  Localizable.strings
+  Dawaga
+
+  Created by 김민국 on 2021/04/27.
+  
+*/
+
+"HomeTitle" = "地番、道路名、建物名を\n入力してください";
+"AddressPlaceHolder" = "住所を入力してください";
+"BookMarkTitle" = "ブックマーク";
+
+"SearchAddressTitle" = "目的地住所";
+
+"DawagaMapDistanceEdit" = "直接入力";
+"DawagaMapStart" = "スタート";
+"DawagaMapEditValuePlaceHolder" = "ブックマークの名前";
+"DawagaMapAddBookMark" = "ブックマーク追加";
+"DawagaMapDeleteBookMark" = " ブックマーク修正キャンセル";
+"DawagaMapModifyBookMark" = "ブックマーク修正";
+"DawagaMapEditViewPlaceHolder" = "入力";
+
+"DawagaNotificationTitle" = "到着";
+"DawagaNotificationBody" = "目的地に着きました";
+
+"NotificationPermissionTitle" = "通知権限エラー";
+"NotificationPermissionBody" = "通知に対する権限設定をしてください";
+"LocationDeniedTitle" = "位置権限エラー";
+"LocationDeniedBody" = "位置に対する権限設定をしてください";
+"NotificationErrorTitle" = "エラー発生";
+"NotificationErrorBody" = "エラーが発生しました";
+
+"Enter" = "完了";
+"Destination" = "目的地";
+
+"InputError" = "入力エラー";
+"BookMarkAddressEmptyAlertMessage" = "アドレスをもう一度設定してください";
+"BookMarkNameEmptyAlertMessage" = "ブックマークの名前を設定してください";
+"BookMarkImageEmptyAlertMessage" = "ブックマークアイコンを設定してください";
+"BookMarkRealmErrorAlertMessage" = "データベース エラー";
+
+"CreatedComplete" = "追加完了";
+"UpdateComplete" = "修正済み";
+"BookMarkCreated" = "ブックマーク 追加完了";
+"BookMarkUpdated" = "ブックマーク 修正済み";
+
+"TutorialDoneTitle" = "スタート!";

@@ -1,0 +1,47 @@
+/* 
+  Localizable.strings
+  Dawaga
+
+  Created by 김민국 on 2021/04/27.
+  
+*/
+
+"HomeTitle" = "Please enter the\nDestination Address";
+"AddressPlaceHolder" = "Please enter your address";
+"BookMarkTitle" = "Bookmark";
+
+"SearchAddressTitle" = "Destination Address";
+
+"DawagaMapDistanceEdit" = "Edit";
+"DawagaMapStart" = "Start";
+"DawagaMapEditValuePlaceHolder" = "Please enter a name";
+"DawagaMapAddBookMark" = "Add Bookmark";
+"DawagaMapDeleteBookMark" = " Cancel Bookmark Modification";
+"DawagaMapModifyBookMark" = "Modify Bookmark";
+"DawagaMapEditViewPlaceHolder" = "Please enter";
+
+"DawagaNotificationTitle" = "Arrived";
+"DawagaNotificationBody" = "Arrived at destination";
+
+"NotificationPermissionTitle" = "Notification Permission Error";
+"NotificationPermissionBody" = "Please set permissions for notifications";
+"LocationDeniedTitle" = "Location Permission Error";
+"LocationDeniedBody" = "Please set the permission for the location";
+"NotificationErrorTitle" = "Error";
+"NotificationErrorBody" = "An error has occurred";
+
+"Enter" = "Done";
+"Destination" = "Destination";
+
+"InputError" = "Input Error";
+"BookMarkAddressEmptyAlertMessage" = "Please set the address";
+"BookMarkNameEmptyAlertMessage" = "Please enter a bookmark name";
+"BookMarkImageEmptyAlertMessage" = "Please set the bookmark icon";
+"BookMarkRealmErrorAlertMessage" = "Database error";
+
+"CreatedComplete" = "Addition Complete";
+"UpdateComplete" = "Modification Complete";
+"BookMarkCreated" = "Bookmark addition completed";
+"BookMarkUpdated" = "Bookmark modification completed";
+
+"TutorialDoneTitle" = "Start!";

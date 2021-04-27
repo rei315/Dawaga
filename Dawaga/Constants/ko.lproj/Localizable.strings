@@ -1,0 +1,47 @@
+/* 
+  Localizable.strings
+  Dawaga
+
+  Created by 김민국 on 2021/04/27.
+  
+*/
+
+"HomeTitle" = "지번, 도로명, 건물명을\n입력하세요";
+"AddressPlaceHolder" = "주소를 입력하세요";
+"BookMarkTitle" = "즐겨찾기";
+
+"SearchAddressTitle" = "목적지 주소";
+
+"DawagaMapDistanceEdit" = "직접입력";
+"DawagaMapStart" = "시작";
+"DawagaMapEditValuePlaceHolder" = "이름을 입력하세요";
+"DawagaMapAddBookMark" = "즐겨찾기 추가";
+"DawagaMapDeleteBookMark" = " 즐겨찾기 수정 취소";
+"DawagaMapModifyBookMark" = "즐겨찾기 수정";
+"DawagaMapEditViewPlaceHolder" = "입력하세요";
+
+"DawagaNotificationTitle" = "도착";
+"DawagaNotificationBody" = "목적지에 도착하였습니다.";
+
+"NotificationPermissionTitle" = "알림 권한 오류";
+"NotificationPermissionBody" = "알림에 대한 권한 설정을 해주세요";
+"LocationDeniedTitle" = "위치 권한 오류";
+"LocationDeniedBody" = "위치에 대한 권한 설정을 해주세요";
+"NotificationErrorTitle" = "오류 발생";
+"NotificationErrorBody" = "오류가 발생 하였습니다";
+
+"Enter" = "확인";
+"Destination" = "목적지";
+
+"InputError" = "입력 오류";
+"BookMarkAddressEmptyAlertMessage" = "주소를 다시 설정해주세요";
+"BookMarkNameEmptyAlertMessage" = "즐겨찾기 이름을 설정해주세요";
+"BookMarkImageEmptyAlertMessage" = "즐겨찾기 아이콘을 설정해주세요";
+"BookMarkRealmErrorAlertMessage" = "데이터베이스 에러";
+
+"CreatedComplete" = "추가 완료";
+"UpdateComplete" = "수정 완료";
+"BookMarkCreated" = "즐겨찾기 추가 완료";
+"BookMarkUpdated" = "즐겨찾기 수정 완료";
+
+"TutorialDoneTitle" = "시작!";

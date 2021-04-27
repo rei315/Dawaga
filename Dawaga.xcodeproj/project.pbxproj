@@ -3,27 +3,137 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		8C9C0AB92637E27800D7AA39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0AB82637E27800D7AA39 /* AppDelegate.swift */; };
-		8C9C0ABB2637E27800D7AA39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0ABA2637E27800D7AA39 /* SceneDelegate.swift */; };
-		8C9C0ABD2637E27800D7AA39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0ABC2637E27800D7AA39 /* ViewController.swift */; };
-		8C9C0AC02637E27800D7AA39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C9C0ABE2637E27800D7AA39 /* Main.storyboard */; };
 		8C9C0AC22637E27800D7AA39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C9C0AC12637E27800D7AA39 /* Assets.xcassets */; };
 		8C9C0AC52637E27800D7AA39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C9C0AC32637E27800D7AA39 /* LaunchScreen.storyboard */; };
+		8C9C0B072637E3A400D7AA39 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B062637E3A400D7AA39 /* MainViewModel.swift */; };
+		8C9C0B0B2637E3A800D7AA39 /* PlaceSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B0A2637E3A800D7AA39 /* PlaceSearchViewModel.swift */; };
+		8C9C0B0E2637E3AD00D7AA39 /* DawagaMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B0D2637E3AD00D7AA39 /* DawagaMapViewModel.swift */; };
+		8C9C0B112637E3B200D7AA39 /* BookMarkIconSelectorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B102637E3B200D7AA39 /* BookMarkIconSelectorViewModel.swift */; };
+		8C9C0B142637E3B600D7AA39 /* DawagaLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B132637E3B600D7AA39 /* DawagaLoadingViewModel.swift */; };
+		8C9C0B172637E3C400D7AA39 /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B162637E3C400D7AA39 /* MainModel.swift */; };
+		8C9C0B1A2637E3C900D7AA39 /* PlaceSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B192637E3C900D7AA39 /* PlaceSearchModel.swift */; };
+		8C9C0B1D2637E3CE00D7AA39 /* DawagaMapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B1C2637E3CE00D7AA39 /* DawagaMapModel.swift */; };
+		8C9C0B202637E3D200D7AA39 /* BookMarkIconSelectorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B1F2637E3D200D7AA39 /* BookMarkIconSelectorModel.swift */; };
+		8C9C0B232637E3D700D7AA39 /* DawagaLoadingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B222637E3D700D7AA39 /* DawagaLoadingModel.swift */; };
+		8C9C0B2A2637E3F100D7AA39 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B292637E3F100D7AA39 /* MainViewController.swift */; };
+		8C9C0B2E2637E3F600D7AA39 /* PlaceSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B2D2637E3F600D7AA39 /* PlaceSearchViewController.swift */; };
+		8C9C0B312637E3FB00D7AA39 /* DawagaMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B302637E3FB00D7AA39 /* DawagaMapViewController.swift */; };
+		8C9C0B342637E40000D7AA39 /* BookMarkIconSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B332637E40000D7AA39 /* BookMarkIconSelectorViewController.swift */; };
+		8C9C0B372637E40400D7AA39 /* DawagaLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B362637E40400D7AA39 /* DawagaLoadingViewController.swift */; };
+		8C9C0B3A2637E40800D7AA39 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B392637E40800D7AA39 /* TutorialViewController.swift */; };
+		8C9C0B3D2637E44700D7AA39 /* MainViewSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B3C2637E44700D7AA39 /* MainViewSearchView.swift */; };
+		8C9C0B402637E44C00D7AA39 /* BookMarkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B3F2637E44C00D7AA39 /* BookMarkTableViewCell.swift */; };
+		8C9C0B432637E45300D7AA39 /* PlaceSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B422637E45300D7AA39 /* PlaceSearchView.swift */; };
+		8C9C0B462637E45700D7AA39 /* PlaceSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B452637E45700D7AA39 /* PlaceSearchTableViewCell.swift */; };
+		8C9C0B492637E45F00D7AA39 /* DawagaMapBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B482637E45F00D7AA39 /* DawagaMapBottomView.swift */; };
+		8C9C0B4C2637E46300D7AA39 /* DawagaMapEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B4B2637E46300D7AA39 /* DawagaMapEditView.swift */; };
+		8C9C0B4F2637E46C00D7AA39 /* DawagaMapLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B4E2637E46C00D7AA39 /* DawagaMapLoadingView.swift */; };
+		8C9C0B522637E47100D7AA39 /* BookMarkIconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B512637E47100D7AA39 /* BookMarkIconCell.swift */; };
+		8C9C0B562637E4C300D7AA39 /* PaddingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B552637E4C300D7AA39 /* PaddingTextField.swift */; };
+		8C9C0B5A2637E4C700D7AA39 /* CornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B592637E4C700D7AA39 /* CornerView.swift */; };
+		8C9C0B5D2637E4CB00D7AA39 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B5C2637E4CB00D7AA39 /* RoundButton.swift */; };
+		8C9C0B602637E4D100D7AA39 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B5F2637E4D100D7AA39 /* ProgressView.swift */; };
+		8C9C0B632637E4D500D7AA39 /* ProgressShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B622637E4D500D7AA39 /* ProgressShapeLayer.swift */; };
+		8C9C0B662637E4D900D7AA39 /* StrokeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B652637E4D900D7AA39 /* StrokeAnimation.swift */; };
+		8C9C0B692637E4DD00D7AA39 /* RotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B682637E4DD00D7AA39 /* RotationAnimation.swift */; };
+		8C9C0B6C2637E51200D7AA39 /* NSObject+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B6B2637E51200D7AA39 /* NSObject+Protocol.swift */; };
+		8C9C0B702637E52300D7AA39 /* APIManagerForGoogleMaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B6F2637E52300D7AA39 /* APIManagerForGoogleMaps.swift */; };
+		8C9C0B742637E52900D7AA39 /* ResourceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B732637E52900D7AA39 /* ResourceManager.swift */; };
+		8C9C0B772637E52D00D7AA39 /* DeviceSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B762637E52D00D7AA39 /* DeviceSize.swift */; };
+		8C9C0B7A2637E54900D7AA39 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B792637E54900D7AA39 /* UIColor+Extension.swift */; };
+		8C9C0B7D2637E54D00D7AA39 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B7C2637E54D00D7AA39 /* String+Extension.swift */; };
+		8C9C0B802637E55300D7AA39 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B7F2637E55300D7AA39 /* UITableView+Extension.swift */; };
+		8C9C0B832637E55700D7AA39 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B822637E55700D7AA39 /* UIView+Extension.swift */; };
+		8C9C0B862637E55B00D7AA39 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B852637E55B00D7AA39 /* UITextField+Extension.swift */; };
+		8C9C0B892637E56000D7AA39 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B882637E56000D7AA39 /* UIViewController+Extension.swift */; };
+		8C9C0B8C2637E56500D7AA39 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B8B2637E56500D7AA39 /* UICollectionView+Extension.swift */; };
+		8C9C0B8F2637E59E00D7AA39 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B8E2637E59E00D7AA39 /* App.swift */; };
+		8C9C0B932637E5A300D7AA39 /* GoogleKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0B922637E5A300D7AA39 /* GoogleKey.swift */; };
+		8C9C0B982637E5C000D7AA39 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C9C0B9A2637E5C000D7AA39 /* Localizable.strings */; };
+		8C9C0BA22637E64A00D7AA39 /* LocationNotificationEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0BA12637E64A00D7AA39 /* LocationNotificationEntity.swift */; };
+		8C9C0BA62637E64F00D7AA39 /* LocationNotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0BA52637E64F00D7AA39 /* LocationNotificationScheduler.swift */; };
+		8C9C0BAD2637E75300D7AA39 /* MarkRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0BAC2637E75300D7AA39 /* MarkRealm.swift */; };
+		8C9C0BB12637E75A00D7AA39 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0BB02637E75A00D7AA39 /* Location.swift */; };
+		8C9C0BB42637E75E00D7AA39 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0BB32637E75E00D7AA39 /* Place.swift */; };
+		8C9C0BB72637E76300D7AA39 /* LocationEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0BB62637E76300D7AA39 /* LocationEntity.swift */; };
+		8C9C0BBA2637E76800D7AA39 /* MarkRealmEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0BB92637E76800D7AA39 /* MarkRealmEntity.swift */; };
+		8C9C0BBD2637E76C00D7AA39 /* PlaceEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C0BBC2637E76C00D7AA39 /* PlaceEntity.swift */; };
+		8C9C0BC32637E8A400D7AA39 /* MarkIcon in Resources */ = {isa = PBXBuildFile; fileRef = 8C9C0BC22637E8A400D7AA39 /* MarkIcon */; };
+		FE322C39FF95D6E57123B1AE /* Pods_Dawaga.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 471BC3AEE78D0A3B30DEAF84 /* Pods_Dawaga.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		471BC3AEE78D0A3B30DEAF84 /* Pods_Dawaga.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dawaga.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9C0AB52637E27800D7AA39 /* Dawaga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dawaga.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9C0AB82637E27800D7AA39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8C9C0ABA2637E27800D7AA39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8C9C0ABC2637E27800D7AA39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8C9C0ABF2637E27800D7AA39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C9C0AC12637E27800D7AA39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C9C0AC42637E27800D7AA39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C9C0AC62637E27800D7AA39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C9C0B062637E3A400D7AA39 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		8C9C0B0A2637E3A800D7AA39 /* PlaceSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceSearchViewModel.swift; sourceTree = "<group>"; };
+		8C9C0B0D2637E3AD00D7AA39 /* DawagaMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DawagaMapViewModel.swift; sourceTree = "<group>"; };
+		8C9C0B102637E3B200D7AA39 /* BookMarkIconSelectorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarkIconSelectorViewModel.swift; sourceTree = "<group>"; };
+		8C9C0B132637E3B600D7AA39 /* DawagaLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DawagaLoadingViewModel.swift; sourceTree = "<group>"; };
+		8C9C0B162637E3C400D7AA39 /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		8C9C0B192637E3C900D7AA39 /* PlaceSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceSearchModel.swift; sourceTree = "<group>"; };
+		8C9C0B1C2637E3CE00D7AA39 /* DawagaMapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DawagaMapModel.swift; sourceTree = "<group>"; };
+		8C9C0B1F2637E3D200D7AA39 /* BookMarkIconSelectorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarkIconSelectorModel.swift; sourceTree = "<group>"; };
+		8C9C0B222637E3D700D7AA39 /* DawagaLoadingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DawagaLoadingModel.swift; sourceTree = "<group>"; };
+		8C9C0B292637E3F100D7AA39 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8C9C0B2D2637E3F600D7AA39 /* PlaceSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceSearchViewController.swift; sourceTree = "<group>"; };
+		8C9C0B302637E3FB00D7AA39 /* DawagaMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DawagaMapViewController.swift; sourceTree = "<group>"; };
+		8C9C0B332637E40000D7AA39 /* BookMarkIconSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarkIconSelectorViewController.swift; sourceTree = "<group>"; };
+		8C9C0B362637E40400D7AA39 /* DawagaLoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DawagaLoadingViewController.swift; sourceTree = "<group>"; };
+		8C9C0B392637E40800D7AA39 /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		8C9C0B3C2637E44700D7AA39 /* MainViewSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewSearchView.swift; sourceTree = "<group>"; };
+		8C9C0B3F2637E44C00D7AA39 /* BookMarkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarkTableViewCell.swift; sourceTree = "<group>"; };
+		8C9C0B422637E45300D7AA39 /* PlaceSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceSearchView.swift; sourceTree = "<group>"; };
+		8C9C0B452637E45700D7AA39 /* PlaceSearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceSearchTableViewCell.swift; sourceTree = "<group>"; };
+		8C9C0B482637E45F00D7AA39 /* DawagaMapBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DawagaMapBottomView.swift; sourceTree = "<group>"; };
+		8C9C0B4B2637E46300D7AA39 /* DawagaMapEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DawagaMapEditView.swift; sourceTree = "<group>"; };
+		8C9C0B4E2637E46C00D7AA39 /* DawagaMapLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DawagaMapLoadingView.swift; sourceTree = "<group>"; };
+		8C9C0B512637E47100D7AA39 /* BookMarkIconCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarkIconCell.swift; sourceTree = "<group>"; };
+		8C9C0B552637E4C300D7AA39 /* PaddingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingTextField.swift; sourceTree = "<group>"; };
+		8C9C0B592637E4C700D7AA39 /* CornerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerView.swift; sourceTree = "<group>"; };
+		8C9C0B5C2637E4CB00D7AA39 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		8C9C0B5F2637E4D100D7AA39 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		8C9C0B622637E4D500D7AA39 /* ProgressShapeLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressShapeLayer.swift; sourceTree = "<group>"; };
+		8C9C0B652637E4D900D7AA39 /* StrokeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeAnimation.swift; sourceTree = "<group>"; };
+		8C9C0B682637E4DD00D7AA39 /* RotationAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationAnimation.swift; sourceTree = "<group>"; };
+		8C9C0B6B2637E51200D7AA39 /* NSObject+Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Protocol.swift"; sourceTree = "<group>"; };
+		8C9C0B6F2637E52300D7AA39 /* APIManagerForGoogleMaps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManagerForGoogleMaps.swift; sourceTree = "<group>"; };
+		8C9C0B732637E52900D7AA39 /* ResourceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceManager.swift; sourceTree = "<group>"; };
+		8C9C0B762637E52D00D7AA39 /* DeviceSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSize.swift; sourceTree = "<group>"; };
+		8C9C0B792637E54900D7AA39 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		8C9C0B7C2637E54D00D7AA39 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		8C9C0B7F2637E55300D7AA39 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		8C9C0B822637E55700D7AA39 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		8C9C0B852637E55B00D7AA39 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		8C9C0B882637E56000D7AA39 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		8C9C0B8B2637E56500D7AA39 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
+		8C9C0B8E2637E59E00D7AA39 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		8C9C0B922637E5A300D7AA39 /* GoogleKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleKey.swift; sourceTree = "<group>"; };
+		8C9C0B992637E5C000D7AA39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8C9C0B9C2637E5EF00D7AA39 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		8C9C0B9D2637E5F000D7AA39 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8C9C0B9F2637E62200D7AA39 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		8C9C0BA02637E62300D7AA39 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8C9C0BA12637E64A00D7AA39 /* LocationNotificationEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationNotificationEntity.swift; sourceTree = "<group>"; };
+		8C9C0BA52637E64F00D7AA39 /* LocationNotificationScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationNotificationScheduler.swift; sourceTree = "<group>"; };
+		8C9C0BAC2637E75300D7AA39 /* MarkRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkRealm.swift; sourceTree = "<group>"; };
+		8C9C0BB02637E75A00D7AA39 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		8C9C0BB32637E75E00D7AA39 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		8C9C0BB62637E76300D7AA39 /* LocationEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationEntity.swift; sourceTree = "<group>"; };
+		8C9C0BB92637E76800D7AA39 /* MarkRealmEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkRealmEntity.swift; sourceTree = "<group>"; };
+		8C9C0BBC2637E76C00D7AA39 /* PlaceEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceEntity.swift; sourceTree = "<group>"; };
+		8C9C0BC22637E8A400D7AA39 /* MarkIcon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MarkIcon; sourceTree = "<group>"; };
+		BD13029C29D7AC5CE452BBDB /* Pods-Dawaga.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dawaga.debug.xcconfig"; path = "Target Support Files/Pods-Dawaga/Pods-Dawaga.debug.xcconfig"; sourceTree = "<group>"; };
+		BD7CC9CA21A67BDA0403424B /* Pods-Dawaga.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dawaga.release.xcconfig"; path = "Target Support Files/Pods-Dawaga/Pods-Dawaga.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +141,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE322C39FF95D6E57123B1AE /* Pods_Dawaga.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EC0230458C7209F7247B5E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD13029C29D7AC5CE452BBDB /* Pods-Dawaga.debug.xcconfig */,
+				BD7CC9CA21A67BDA0403424B /* Pods-Dawaga.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8C9C0AAC2637E27800D7AA39 = {
 			isa = PBXGroup;
 			children = (
 				8C9C0AB72637E27800D7AA39 /* Dawaga */,
 				8C9C0AB62637E27800D7AA39 /* Products */,
+				0EC0230458C7209F7247B5E7 /* Pods */,
+				C8230D16F88D17261C79FF10 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +178,234 @@
 		8C9C0AB72637E27800D7AA39 /* Dawaga */ = {
 			isa = PBXGroup;
 			children = (
+				8C9C0BC22637E8A400D7AA39 /* MarkIcon */,
+				8C9C0B002637E38700D7AA39 /* MVVM */,
+				8C9C0AFF2637E38300D7AA39 /* CustomView */,
+				8C9C0AFE2637E37E00D7AA39 /* Protocol */,
+				8C9C0AFD2637E37A00D7AA39 /* Module */,
+				8C9C0AFC2637E37500D7AA39 /* Model */,
+				8C9C0AFB2637E37000D7AA39 /* Extension */,
+				8C9C0AF92637E36200D7AA39 /* Storyboard */,
+				8C9C0AF82637E35C00D7AA39 /* Constants */,
+				8C9C0AF72637E35400D7AA39 /* LocationNotification */,
 				8C9C0AB82637E27800D7AA39 /* AppDelegate.swift */,
-				8C9C0ABA2637E27800D7AA39 /* SceneDelegate.swift */,
-				8C9C0ABC2637E27800D7AA39 /* ViewController.swift */,
-				8C9C0ABE2637E27800D7AA39 /* Main.storyboard */,
 				8C9C0AC12637E27800D7AA39 /* Assets.xcassets */,
-				8C9C0AC32637E27800D7AA39 /* LaunchScreen.storyboard */,
 				8C9C0AC62637E27800D7AA39 /* Info.plist */,
 			);
 			path = Dawaga;
+			sourceTree = "<group>";
+		};
+		8C9C0AF72637E35400D7AA39 /* LocationNotification */ = {
+			isa = PBXGroup;
+			children = (
+				8C9C0BA12637E64A00D7AA39 /* LocationNotificationEntity.swift */,
+				8C9C0BA52637E64F00D7AA39 /* LocationNotificationScheduler.swift */,
+			);
+			path = LocationNotification;
+			sourceTree = "<group>";
+		};
+		8C9C0AF82637E35C00D7AA39 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				8C9C0B8E2637E59E00D7AA39 /* App.swift */,
+				8C9C0B922637E5A300D7AA39 /* GoogleKey.swift */,
+				8C9C0B9A2637E5C000D7AA39 /* Localizable.strings */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		8C9C0AF92637E36200D7AA39 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				8C9C0AC32637E27800D7AA39 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		8C9C0AFB2637E37000D7AA39 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8C9C0B792637E54900D7AA39 /* UIColor+Extension.swift */,
+				8C9C0B7C2637E54D00D7AA39 /* String+Extension.swift */,
+				8C9C0B7F2637E55300D7AA39 /* UITableView+Extension.swift */,
+				8C9C0B822637E55700D7AA39 /* UIView+Extension.swift */,
+				8C9C0B852637E55B00D7AA39 /* UITextField+Extension.swift */,
+				8C9C0B882637E56000D7AA39 /* UIViewController+Extension.swift */,
+				8C9C0B8B2637E56500D7AA39 /* UICollectionView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8C9C0AFC2637E37500D7AA39 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8C9C0BAB2637E74C00D7AA39 /* Entity */,
+				8C9C0BAC2637E75300D7AA39 /* MarkRealm.swift */,
+				8C9C0BB02637E75A00D7AA39 /* Location.swift */,
+				8C9C0BB32637E75E00D7AA39 /* Place.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8C9C0AFD2637E37A00D7AA39 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				8C9C0B6E2637E51D00D7AA39 /* APIManager */,
+				8C9C0B732637E52900D7AA39 /* ResourceManager.swift */,
+				8C9C0B762637E52D00D7AA39 /* DeviceSize.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		8C9C0AFE2637E37E00D7AA39 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				8C9C0B6B2637E51200D7AA39 /* NSObject+Protocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		8C9C0AFF2637E38300D7AA39 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				8C9C0B542637E4BB00D7AA39 /* ProgressView */,
+				8C9C0B552637E4C300D7AA39 /* PaddingTextField.swift */,
+				8C9C0B592637E4C700D7AA39 /* CornerView.swift */,
+				8C9C0B5C2637E4CB00D7AA39 /* RoundButton.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		8C9C0B002637E38700D7AA39 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				8C9C0B052637E39900D7AA39 /* ViewController */,
+				8C9C0B042637E39700D7AA39 /* View */,
+				8C9C0B032637E39500D7AA39 /* Model */,
+				8C9C0B012637E38D00D7AA39 /* ViewModel */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		8C9C0B012637E38D00D7AA39 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8C9C0B062637E3A400D7AA39 /* MainViewModel.swift */,
+				8C9C0B0A2637E3A800D7AA39 /* PlaceSearchViewModel.swift */,
+				8C9C0B0D2637E3AD00D7AA39 /* DawagaMapViewModel.swift */,
+				8C9C0B102637E3B200D7AA39 /* BookMarkIconSelectorViewModel.swift */,
+				8C9C0B132637E3B600D7AA39 /* DawagaLoadingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8C9C0B032637E39500D7AA39 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8C9C0B162637E3C400D7AA39 /* MainModel.swift */,
+				8C9C0B192637E3C900D7AA39 /* PlaceSearchModel.swift */,
+				8C9C0B1C2637E3CE00D7AA39 /* DawagaMapModel.swift */,
+				8C9C0B1F2637E3D200D7AA39 /* BookMarkIconSelectorModel.swift */,
+				8C9C0B222637E3D700D7AA39 /* DawagaLoadingModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8C9C0B042637E39700D7AA39 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8C9C0B282637E3EA00D7AA39 /* BookMarkIconSelector */,
+				8C9C0B272637E3E600D7AA39 /* DawagaMap */,
+				8C9C0B262637E3E200D7AA39 /* SearchView */,
+				8C9C0B252637E3DD00D7AA39 /* Main */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8C9C0B052637E39900D7AA39 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8C9C0B292637E3F100D7AA39 /* MainViewController.swift */,
+				8C9C0B2D2637E3F600D7AA39 /* PlaceSearchViewController.swift */,
+				8C9C0B302637E3FB00D7AA39 /* DawagaMapViewController.swift */,
+				8C9C0B332637E40000D7AA39 /* BookMarkIconSelectorViewController.swift */,
+				8C9C0B362637E40400D7AA39 /* DawagaLoadingViewController.swift */,
+				8C9C0B392637E40800D7AA39 /* TutorialViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8C9C0B252637E3DD00D7AA39 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8C9C0B3C2637E44700D7AA39 /* MainViewSearchView.swift */,
+				8C9C0B3F2637E44C00D7AA39 /* BookMarkTableViewCell.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8C9C0B262637E3E200D7AA39 /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				8C9C0B422637E45300D7AA39 /* PlaceSearchView.swift */,
+				8C9C0B452637E45700D7AA39 /* PlaceSearchTableViewCell.swift */,
+			);
+			path = SearchView;
+			sourceTree = "<group>";
+		};
+		8C9C0B272637E3E600D7AA39 /* DawagaMap */ = {
+			isa = PBXGroup;
+			children = (
+				8C9C0B482637E45F00D7AA39 /* DawagaMapBottomView.swift */,
+				8C9C0B4B2637E46300D7AA39 /* DawagaMapEditView.swift */,
+				8C9C0B4E2637E46C00D7AA39 /* DawagaMapLoadingView.swift */,
+			);
+			path = DawagaMap;
+			sourceTree = "<group>";
+		};
+		8C9C0B282637E3EA00D7AA39 /* BookMarkIconSelector */ = {
+			isa = PBXGroup;
+			children = (
+				8C9C0B512637E47100D7AA39 /* BookMarkIconCell.swift */,
+			);
+			path = BookMarkIconSelector;
+			sourceTree = "<group>";
+		};
+		8C9C0B542637E4BB00D7AA39 /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				8C9C0B5F2637E4D100D7AA39 /* ProgressView.swift */,
+				8C9C0B622637E4D500D7AA39 /* ProgressShapeLayer.swift */,
+				8C9C0B652637E4D900D7AA39 /* StrokeAnimation.swift */,
+				8C9C0B682637E4DD00D7AA39 /* RotationAnimation.swift */,
+			);
+			path = ProgressView;
+			sourceTree = "<group>";
+		};
+		8C9C0B6E2637E51D00D7AA39 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				8C9C0B6F2637E52300D7AA39 /* APIManagerForGoogleMaps.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		8C9C0BAB2637E74C00D7AA39 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				8C9C0BB62637E76300D7AA39 /* LocationEntity.swift */,
+				8C9C0BB92637E76800D7AA39 /* MarkRealmEntity.swift */,
+				8C9C0BBC2637E76C00D7AA39 /* PlaceEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		C8230D16F88D17261C79FF10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				471BC3AEE78D0A3B30DEAF84 /* Pods_Dawaga.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +415,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C9C0AC92637E27800D7AA39 /* Build configuration list for PBXNativeTarget "Dawaga" */;
 			buildPhases = (
+				9F748975E633C81346862916 /* [CP] Check Pods Manifest.lock */,
 				8C9C0AB12637E27800D7AA39 /* Sources */,
 				8C9C0AB22637E27800D7AA39 /* Frameworks */,
 				8C9C0AB32637E27800D7AA39 /* Resources */,
+				A5BC48F6F3425CFB79A7C4A3 /* [CP] Embed Pods Frameworks */,
+				572888FF8E60D767AD8ABC7A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -108,6 +452,8 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
+				ko,
 			);
 			mainGroup = 8C9C0AAC2637E27800D7AA39;
 			productRefGroup = 8C9C0AB62637E27800D7AA39 /* Products */;
@@ -124,42 +470,156 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C9C0BC32637E8A400D7AA39 /* MarkIcon in Resources */,
 				8C9C0AC52637E27800D7AA39 /* LaunchScreen.storyboard in Resources */,
+				8C9C0B982637E5C000D7AA39 /* Localizable.strings in Resources */,
 				8C9C0AC22637E27800D7AA39 /* Assets.xcassets in Resources */,
-				8C9C0AC02637E27800D7AA39 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		572888FF8E60D767AD8ABC7A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dawaga/Pods-Dawaga-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dawaga/Pods-Dawaga-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dawaga/Pods-Dawaga-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F748975E633C81346862916 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dawaga-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5BC48F6F3425CFB79A7C4A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dawaga/Pods-Dawaga-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dawaga/Pods-Dawaga-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dawaga/Pods-Dawaga-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8C9C0AB12637E27800D7AA39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C9C0ABD2637E27800D7AA39 /* ViewController.swift in Sources */,
+				8C9C0B342637E40000D7AA39 /* BookMarkIconSelectorViewController.swift in Sources */,
+				8C9C0BBA2637E76800D7AA39 /* MarkRealmEntity.swift in Sources */,
+				8C9C0B6C2637E51200D7AA39 /* NSObject+Protocol.swift in Sources */,
+				8C9C0B562637E4C300D7AA39 /* PaddingTextField.swift in Sources */,
+				8C9C0B692637E4DD00D7AA39 /* RotationAnimation.swift in Sources */,
 				8C9C0AB92637E27800D7AA39 /* AppDelegate.swift in Sources */,
-				8C9C0ABB2637E27800D7AA39 /* SceneDelegate.swift in Sources */,
+				8C9C0B202637E3D200D7AA39 /* BookMarkIconSelectorModel.swift in Sources */,
+				8C9C0B4C2637E46300D7AA39 /* DawagaMapEditView.swift in Sources */,
+				8C9C0B2E2637E3F600D7AA39 /* PlaceSearchViewController.swift in Sources */,
+				8C9C0B602637E4D100D7AA39 /* ProgressView.swift in Sources */,
+				8C9C0B112637E3B200D7AA39 /* BookMarkIconSelectorViewModel.swift in Sources */,
+				8C9C0B462637E45700D7AA39 /* PlaceSearchTableViewCell.swift in Sources */,
+				8C9C0B2A2637E3F100D7AA39 /* MainViewController.swift in Sources */,
+				8C9C0B432637E45300D7AA39 /* PlaceSearchView.swift in Sources */,
+				8C9C0B8F2637E59E00D7AA39 /* App.swift in Sources */,
+				8C9C0B4F2637E46C00D7AA39 /* DawagaMapLoadingView.swift in Sources */,
+				8C9C0B772637E52D00D7AA39 /* DeviceSize.swift in Sources */,
+				8C9C0B702637E52300D7AA39 /* APIManagerForGoogleMaps.swift in Sources */,
+				8C9C0B932637E5A300D7AA39 /* GoogleKey.swift in Sources */,
+				8C9C0B632637E4D500D7AA39 /* ProgressShapeLayer.swift in Sources */,
+				8C9C0BB42637E75E00D7AA39 /* Place.swift in Sources */,
+				8C9C0B142637E3B600D7AA39 /* DawagaLoadingViewModel.swift in Sources */,
+				8C9C0B892637E56000D7AA39 /* UIViewController+Extension.swift in Sources */,
+				8C9C0B832637E55700D7AA39 /* UIView+Extension.swift in Sources */,
+				8C9C0B522637E47100D7AA39 /* BookMarkIconCell.swift in Sources */,
+				8C9C0B5A2637E4C700D7AA39 /* CornerView.swift in Sources */,
+				8C9C0B172637E3C400D7AA39 /* MainModel.swift in Sources */,
+				8C9C0B3D2637E44700D7AA39 /* MainViewSearchView.swift in Sources */,
+				8C9C0B7D2637E54D00D7AA39 /* String+Extension.swift in Sources */,
+				8C9C0B5D2637E4CB00D7AA39 /* RoundButton.swift in Sources */,
+				8C9C0B232637E3D700D7AA39 /* DawagaLoadingModel.swift in Sources */,
+				8C9C0B0B2637E3A800D7AA39 /* PlaceSearchViewModel.swift in Sources */,
+				8C9C0B742637E52900D7AA39 /* ResourceManager.swift in Sources */,
+				8C9C0B372637E40400D7AA39 /* DawagaLoadingViewController.swift in Sources */,
+				8C9C0B1A2637E3C900D7AA39 /* PlaceSearchModel.swift in Sources */,
+				8C9C0BBD2637E76C00D7AA39 /* PlaceEntity.swift in Sources */,
+				8C9C0B662637E4D900D7AA39 /* StrokeAnimation.swift in Sources */,
+				8C9C0B312637E3FB00D7AA39 /* DawagaMapViewController.swift in Sources */,
+				8C9C0B862637E55B00D7AA39 /* UITextField+Extension.swift in Sources */,
+				8C9C0BA22637E64A00D7AA39 /* LocationNotificationEntity.swift in Sources */,
+				8C9C0B3A2637E40800D7AA39 /* TutorialViewController.swift in Sources */,
+				8C9C0BAD2637E75300D7AA39 /* MarkRealm.swift in Sources */,
+				8C9C0BB72637E76300D7AA39 /* LocationEntity.swift in Sources */,
+				8C9C0B402637E44C00D7AA39 /* BookMarkTableViewCell.swift in Sources */,
+				8C9C0BA62637E64F00D7AA39 /* LocationNotificationScheduler.swift in Sources */,
+				8C9C0B7A2637E54900D7AA39 /* UIColor+Extension.swift in Sources */,
+				8C9C0B0E2637E3AD00D7AA39 /* DawagaMapViewModel.swift in Sources */,
+				8C9C0B1D2637E3CE00D7AA39 /* DawagaMapModel.swift in Sources */,
+				8C9C0B072637E3A400D7AA39 /* MainViewModel.swift in Sources */,
+				8C9C0B8C2637E56500D7AA39 /* UICollectionView+Extension.swift in Sources */,
+				8C9C0B492637E45F00D7AA39 /* DawagaMapBottomView.swift in Sources */,
+				8C9C0B802637E55300D7AA39 /* UITableView+Extension.swift in Sources */,
+				8C9C0BB12637E75A00D7AA39 /* Location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8C9C0ABE2637E27800D7AA39 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8C9C0ABF2637E27800D7AA39 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8C9C0AC32637E27800D7AA39 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				8C9C0AC42637E27800D7AA39 /* Base */,
+				8C9C0B9C2637E5EF00D7AA39 /* ja */,
+				8C9C0B9F2637E62200D7AA39 /* ko */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8C9C0B9A2637E5C000D7AA39 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C9C0B992637E5C000D7AA39 /* en */,
+				8C9C0B9D2637E5F000D7AA39 /* ja */,
+				8C9C0BA02637E62300D7AA39 /* ko */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -169,6 +629,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -202,6 +663,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -230,6 +692,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -263,6 +726,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -283,39 +747,45 @@
 		};
 		8C9C0ACA2637E27800D7AA39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD13029C29D7AC5CE452BBDB /* Pods-Dawaga.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3N72J4U62S;
 				INFOPLIST_FILE = Dawaga/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.MGHouse.Dawaga;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		8C9C0ACB2637E27800D7AA39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD7CC9CA21A67BDA0403424B /* Pods-Dawaga.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3N72J4U62S;
 				INFOPLIST_FILE = Dawaga/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.MGHouse.Dawaga;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
