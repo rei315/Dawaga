@@ -1,2 +1,2 @@
-let GOOGLE_API_KEY = "AIzaSyD4KOxynOARv0GZ_xDOFwWtBMXri0nBIYM"
+let GOOGLE_API_KEY = ""
 
